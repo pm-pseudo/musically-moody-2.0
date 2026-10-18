@@ -1,16 +1,55 @@
-# React + Vite
+# Musically Moody 2.0
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Music recommendations inspired by your mood and favorite artists.**
 
-Currently, two official plugins are available:
+Musically Moody 2.0 is a React web application that helps users discover music based on their emotions and musical preferences.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
 
-## React Compiler
+- 12 mood options, including Happy, Sad, Calm, Energetic, Romantic, Hopeful, and Nostalgic.
+- Choose three or more favorite artists.
+- Generate song suggestions using publicly accessible music metadata.
+- Open songs on iTunes or search for them on Spotify.
+- Responsive black, lavender, and pink interface.
+- No account registration required.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+**Note:** Mood recommendations are based on broad genre associations rather than direct analysis of a song's emotional content.
 
-## Expanding the ESLint configuration
+## Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React
+- JavaScript
+- HTML & CSS
+- Vite
+- iTunes Search API
+
+## Run Locally
+
+1. Clone this repository.
+2. Install dependencies using `npm install`.
+3. Start the development server using `npm run dev`.
+4. Open the local URL displayed in your terminal.
+
+## Original Project Credits
+
+Musically Moody was originally created as a collaborative project during the Blueprint Spring 2026 program.
+
+**Original Team Members:**
+- Jinal
+- Brynne
+- Nitya
+- Priyanka
+
+Original repository: https://github.com/bl790/Musically-Moody
+
+Musically Moody 2.0 is an independently developed continuation of the original project. It expands the original concept with additional mood options, a redesigned interface, and enhanced song discovery functionality.
+
+Special thanks to the original team members for their contributions to the project's foundation.
+
+## Disclaimer
+
+This website uses the public iTunes Search API for music metadata. It does not host or distribute copyrighted audio, lyrics, or album artwork.
+
+Spotify links direct users to Spotify search results. This project is not affiliated with, sponsored by, or endorsed by Spotify or Apple.
+
+This website is an ongoing personal project, and additional improvements may be introduced in the future.
