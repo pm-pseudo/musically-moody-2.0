@@ -23,13 +23,6 @@ Musically Moody 2.0 is a React web application that helps users discover music b
 - Vite
 - iTunes Search API
 
-## Run Locally
-
-1. Clone this repository.
-2. Install dependencies using `npm install`.
-3. Start the development server using `npm run dev`.
-4. Open the local URL displayed in your terminal.
-
 ## Original Project Credits
 
 Musically Moody was originally created as a collaborative project during the Blueprint Spring 2026 program.
