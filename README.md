@@ -20,8 +20,6 @@ Musically Moody 2.0 is a React web application that helps users discover music b
 - React
 - JavaScript
 - HTML & CSS
-- Vite
-- iTunes Search API
 
 ## Original Project Credits
 
