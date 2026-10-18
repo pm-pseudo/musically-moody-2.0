@@ -25,7 +25,7 @@ Musically Moody 2.0 is a React web application that helps users discover music b
 
 ## Original Project Credits
 
-Musically Moody was originally created as a collaborative project during the Blueprint Spring 2026 program.
+Musically Moody was originally created as a collaborative project during the Blueprint Frontend Software Engineering 2026 fellowship.
 
 **Original Team Members:**
 - Jinal
