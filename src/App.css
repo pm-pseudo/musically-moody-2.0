@@ -290,4 +290,17 @@
   .section-heading p {
     font-size: 16px;
   }
-}
+}/* Append these rules to the END of your existing src/App.css */
+.form-error { color: #ffe3e3; font-weight: 700; }
+.results-section { padding: 72px 20px; background: #fbf8ff; }
+.results-status { max-width: 850px; margin: 18px auto; color: #493661; text-align: center; line-height: 1.6; }
+.results-status.form-error { color: #802e49; }
+.results-status button { margin-left: 12px; background: #4a286c; color: white; border: none; border-radius: 9px; padding: 10px 15px; cursor: pointer; }
+.results-subheading { max-width: 1100px; margin: 30px auto 16px; color: #352044; font-size: 22px; }
+.song-grid { max-width: 1100px; margin: 0 auto; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr)); gap: 16px; }
+.song-card { background: white; border: 1px solid #eadcf8; border-radius: 18px; padding: 18px; display: flex; flex-direction: column; align-items: flex-start; gap: 10px; box-shadow: 0 8px 24px #2913330d; }
+.song-icon { display: grid; place-items: center; background: #eee0ff; color: #4a286c; border-radius: 12px; width: 42px; height: 42px; font-size: 24px; }
+.song-details h4 { margin: 0 0 5px; font-size: 18px; overflow-wrap: anywhere; color: #302040; }
+.song-details p { margin: 0; color: #6d5d75; }
+.song-hint { display: inline-block; background: #f0e7fb; color: #4b3472; font-size: 12px; padding: 4px 8px; border-radius: 9px; margin-top: 8px; }
+.song-card a { color: #4a286c; font-weight: 700; text-decoration: underline; text-underline-offset: 3px; margin-top: auto; }
